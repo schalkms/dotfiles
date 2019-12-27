@@ -15,7 +15,6 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # aliases
-alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
 alias zshrc="subl ~/.zshrc"
 alias gc="git checkout"
 alias gco="git checkout"
