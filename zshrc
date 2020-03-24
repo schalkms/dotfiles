@@ -15,11 +15,5 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # aliases
-alias zshrc="subl ~/.zshrc"
-alias gc="git checkout"
-alias gco="git checkout"
-alias gcm="git checkout master"
-alias gpull="git pull"
-alias gpush="git push"
-alias gbranch="git checkout -b"
-alias gclone="git clone"
+alias zshrc="code ~/.zshrc"
+alias gtidy="git branch | grep -v "master" | xargs git branch -D"
