@@ -16,4 +16,5 @@ source $ZSH/oh-my-zsh.sh
 
 # aliases
 alias zshrc="code ~/.zshrc"
-alias gtidy="git branch | grep -v "master" | xargs git branch -D"
+alias gtidy="git branch | grep -v "master" | xargs git branch -D && git fetch --prune origin"
+alias gupdate="git checkout master && git pull upstream master && git push"
