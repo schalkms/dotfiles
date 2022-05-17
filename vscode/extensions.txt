@@ -1,0 +1,4 @@
+code --list-extensions | xargs -L 1 echo code --install-extension
+code --install-extension ban.spellright
+code --install-extension mathiasfrohlich.Kotlin
+code --install-extension yzhang.markdown-all-in-one

@@ -1,0 +1,25 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": true,
+    "workbench.enableExperiments": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontFamily": "Menlo",
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": false,
+    "spellright.addToSystemDictionary": true,
+    "breadcrumbs.enabled": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/dist": true,
+        "**/tmp": true,
+        "**/cache": true
+    },
+    "spellright.documentTypes": [
+        "latex",
+        "plaintext",
+        "markdown"
+    ],
+    "telemetry.telemetryLevel": "off"
+}
